@@ -1,21 +1,20 @@
-Frequency Table:
 BodyTemperature	Chills	Headache	Fatigue		Yes	No
-High		        Yes	    Yes		    Yes		    26	2
-High		        Yes	    Yes		    No		    4	  0
-High		        Yes    	No		    Yes		    9	  1
-High		        Yes	    No		    No		    0	  0
-High		        No	    Yes		    Yes		    6	  0
-High		        No	    Yes		    No		    3	  0
-High		        No	    No		    Yes		    2	  0
-High		        No	    No		    No		    1	  0
-Normal		      Yes	    Yes		    Yes		    0	  5
-Normal		      Yes	    Yes		    No		    0	  5
-Normal		      Yes	    No		    Yes		    0	  5
-Normal		      Yes	    No		    No		    0	  13
-Normal		      No	    Yes		    Yes		    0	  9
-Normal		      No	    Yes		    No		    2	  25
-Normal		      No	    No		    Yes		    1	  25
-Normal		      No	    No		    No		    1	  55
+High		Yes	Yes		Yes		26	2
+High		Yes	Yes		No		4	0
+High		Yes	No		Yes		9	1
+High		Yes	No		No		0	0
+High		No	Yes		Yes		6	0
+High		No	Yes		No		3	0
+High		No	No		Yes		2	0
+High		No	No		No		1	0
+Normal		Yes	Yes		Yes		0	5
+Normal		Yes	Yes		No		0	5
+Normal		Yes	No		Yes		0	5
+Normal		Yes	No		No		0	13
+Normal		No	Yes		Yes		0	9
+Normal		No	Yes		No		2	25
+Normal		No	No		Yes		1	25
+Normal		No	No		No		1	55
 
 
 Fever (Yes): 55
