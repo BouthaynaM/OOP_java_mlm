@@ -88,6 +88,18 @@ public class Controller
         sb.append("Chills without fever: ").append(table.getChillsCounts().get("Yes").get("No")).append("\n");
         sb.append("No chills with fever: ").append(table.getChillsCounts().get("No").get("Yes")).append("\n");
         sb.append("No chills without fever: ").append(table.getChillsCounts().get("No").get("No")).append("\n");
+
+        sb.append("\nHEADACHE:\n");
+        sb.append("Headache with fever: ").append(table.getHeadacheCounts().get("Yes").get("Yes")).append("\n");
+        sb.append("Headache without fever: ").append(table.getHeadacheCounts().get("Yes").get("No")).append("\n");
+        sb.append("No headache with fever: ").append(table.getHeadacheCounts().get("No").get("Yes")).append("\n");
+        sb.append("No headache without fever: ").append(table.getHeadacheCounts().get("No").get("No")).append("\n");
+        
+        sb.append("\nFATIGUE:\n");
+        sb.append("Fatigue with fever: ").append(table.getFatigueCounts().get("Yes").get("Yes")).append("\n");
+        sb.append("Fatigue without fever: ").append(table.getFatigueCounts().get("Yes").get("No")).append("\n");
+        sb.append("No fatigue with fever: ").append(table.getFatigueCounts().get("No").get("Yes")).append("\n");
+        sb.append("No fatigue without fever: ").append(table.getFatigueCounts().get("No").get("No")).append("\n");
         
         return sb.toString();
     }
