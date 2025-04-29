@@ -87,6 +87,7 @@ the purpose for this method is to create a formatted string representation of th
 it returns a string containing the frequency table information
 it gets the frequency table from the classifier, uses the StringBuilder to create a formatted display of
 total examples count, class(fever or no fever), body temperature counts by fever status and chills counts by fever status
+headache counts by fever status and fatigue counts by fever status
 
 MAINVIEW CLASS
 the MainView class purpose is to create a graphical user interface handling all the user interactions and displaying results
